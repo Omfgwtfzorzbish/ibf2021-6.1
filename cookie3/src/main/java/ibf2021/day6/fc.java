@@ -16,9 +16,10 @@ public class fc
     
     public static void main(String[] args) throws IOException 
     {
-    Socket socket; ServerSocket serverSocket; Cookie2 Serv= new Cookie2();
-
+    Socket socket; ServerSocket serverSocket; 
    String cookie = "FortuneCookie.txt";  //"src/main/java/ibf2021/day6/FortuneCookie.txt"
+
+   Cookie2 Serv= new Cookie2();
     if(args != null && args.length >=1)
             {cookie = args[0];}
             else{System.out.println("System will us FortuneCookie.txt");}
